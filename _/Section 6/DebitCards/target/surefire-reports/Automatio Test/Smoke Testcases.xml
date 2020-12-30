@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite hostname="Venkatesh-pc" name="pageobjecttestcases.SampleTest" tests="1" failures="0" timestamp="17 Jan 2015 07:01:26 GMT" time="45.041" errors="0">
+  <testcase name="LoginApp" time="44.999" classname="pageobjecttestcases.SampleTest"/>
+</testsuite>

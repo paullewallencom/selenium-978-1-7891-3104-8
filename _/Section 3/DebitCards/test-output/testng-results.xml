@@ -1,0 +1,180 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="1" total="13" passed="12">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Automatio Test" duration-ms="166" started-at="2015-01-16T10:33:51Z" finished-at="2015-01-16T10:33:52Z">
+    <groups>
+      <group name="Priority2">
+        <method signature="Annotations.FlightCancel()[pri:0, instance:packTwo.Annotations@5fa52ad1]" name="FlightCancel" class="packTwo.Annotations"/>
+      </group> <!-- Priority2 -->
+      <group name="Priority1">
+        <method signature="Annotations.FlightBooking()[pri:0, instance:packTwo.Annotations@5fa52ad1]" name="FlightBooking" class="packTwo.Annotations"/>
+      </group> <!-- Priority1 -->
+    </groups>
+    <test name="Smoke Testcases" duration-ms="166" started-at="2015-01-16T10:33:51Z" finished-at="2015-01-16T10:33:52Z">
+      <class name="testngFiles.DependenyAnnot">
+        <test-method status="PASS" signature="OpeningBrowser()[pri:0, instance:testngFiles.DependenyAnnot@158bea4]" name="OpeningBrowser" duration-ms="2" started-at="2015-01-16T16:03:52Z" finished-at="2015-01-16T16:03:52Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- OpeningBrowser -->
+        <test-method status="PASS" signature="Timerelated()[pri:0, instance:testngFiles.DependenyAnnot@158bea4]" name="Timerelated" duration-ms="16" started-at="2015-01-16T16:03:52Z" finished-at="2015-01-16T16:03:52Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Timerelated -->
+        <test-method status="PASS" signature="FlightBooking()[pri:0, instance:testngFiles.DependenyAnnot@158bea4]" name="FlightBooking" duration-ms="3" started-at="2015-01-16T16:03:52Z" depends-on-methods="testngFiles.DependenyAnnot.OpeningBrowser" finished-at="2015-01-16T16:03:52Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- FlightBooking -->
+      </class> <!-- testngFiles.DependenyAnnot -->
+      <class name="packTwo.Annot2">
+        <test-method status="PASS" signature="installsoftware()[pri:0, instance:packTwo.Annot2@694c01ac]" name="installsoftware" is-config="true" duration-ms="29" started-at="2015-01-16T16:03:51Z" finished-at="2015-01-16T16:03:51Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- installsoftware -->
+        <test-method status="PASS" signature="installsoftware()[pri:0, instance:testngFiles.Annot2@7d0144a]" name="installsoftware" is-config="true" duration-ms="1" started-at="2015-01-16T16:03:51Z" finished-at="2015-01-16T16:03:51Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- installsoftware -->
+        <test-method status="PASS" signature="software()[pri:0, instance:packTwo.Annot2@694c01ac]" name="software" duration-ms="13" started-at="2015-01-16T16:03:51Z" finished-at="2015-01-16T16:03:51Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- software -->
+        <test-method status="PASS" signature="deinstallsoftware()[pri:0, instance:packTwo.Annot2@694c01ac]" name="deinstallsoftware" is-config="true" duration-ms="1" started-at="2015-01-16T16:03:52Z" finished-at="2015-01-16T16:03:52Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- deinstallsoftware -->
+        <test-method status="PASS" signature="deinstallsoftware()[pri:0, instance:testngFiles.Annot2@7d0144a]" name="deinstallsoftware" is-config="true" duration-ms="0" started-at="2015-01-16T16:03:52Z" finished-at="2015-01-16T16:03:52Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- deinstallsoftware -->
+      </class> <!-- packTwo.Annot2 -->
+      <class name="packTwo.Annotations">
+        <test-method status="PASS" signature="Cookies()[pri:0, instance:packTwo.Annotations@5fa52ad1]" name="Cookies" is-config="true" duration-ms="1" started-at="2015-01-16T16:03:51Z" finished-at="2015-01-16T16:03:51Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Cookies -->
+        <test-method status="PASS" signature="Cookies()[pri:0, instance:testngFiles.Annotations@8554f0c]" name="Cookies" is-config="true" duration-ms="1" started-at="2015-01-16T16:03:51Z" finished-at="2015-01-16T16:03:51Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Cookies -->
+        <test-method status="PASS" signature="UseridGeneration()[pri:0, instance:packTwo.Annotations@5fa52ad1]" name="UseridGeneration" is-config="true" duration-ms="1" started-at="2015-01-16T16:03:52Z" finished-at="2015-01-16T16:03:52Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- UseridGeneration -->
+        <test-method status="PASS" signature="OpeningBrowser()[pri:0, instance:packTwo.Annotations@5fa52ad1]" name="OpeningBrowser" duration-ms="2" started-at="2015-01-16T16:03:52Z" finished-at="2015-01-16T16:03:52Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- OpeningBrowser -->
+        <test-method status="PASS" signature="Reportadding()[pri:0, instance:packTwo.Annotations@5fa52ad1]" name="Reportadding" is-config="true" duration-ms="1" started-at="2015-01-16T16:03:52Z" finished-at="2015-01-16T16:03:52Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Reportadding -->
+        <test-method status="PASS" signature="UseridGeneration()[pri:0, instance:packTwo.Annotations@5fa52ad1]" name="UseridGeneration" is-config="true" duration-ms="0" started-at="2015-01-16T16:03:52Z" finished-at="2015-01-16T16:03:52Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- UseridGeneration -->
+        <test-method status="PASS" signature="FlightCancel()[pri:0, instance:packTwo.Annotations@5fa52ad1]" name="FlightCancel" duration-ms="2" started-at="2015-01-16T16:03:52Z" finished-at="2015-01-16T16:03:52Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- FlightCancel -->
+        <test-method status="PASS" signature="Reportadding()[pri:0, instance:packTwo.Annotations@5fa52ad1]" name="Reportadding" is-config="true" duration-ms="1" started-at="2015-01-16T16:03:52Z" finished-at="2015-01-16T16:03:52Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Reportadding -->
+        <test-method status="PASS" signature="UseridGeneration()[pri:0, instance:packTwo.Annotations@5fa52ad1]" name="UseridGeneration" is-config="true" duration-ms="0" started-at="2015-01-16T16:03:52Z" finished-at="2015-01-16T16:03:52Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- UseridGeneration -->
+        <test-method status="PASS" signature="FlightBooking()[pri:0, instance:packTwo.Annotations@5fa52ad1]" name="FlightBooking" duration-ms="1" started-at="2015-01-16T16:03:52Z" finished-at="2015-01-16T16:03:52Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- FlightBooking -->
+        <test-method status="PASS" signature="Reportadding()[pri:0, instance:packTwo.Annotations@5fa52ad1]" name="Reportadding" is-config="true" duration-ms="1" started-at="2015-01-16T16:03:52Z" finished-at="2015-01-16T16:03:52Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Reportadding -->
+        <test-method status="PASS" signature="Cookiesclose()[pri:0, instance:packTwo.Annotations@5fa52ad1]" name="Cookiesclose" is-config="true" duration-ms="1" started-at="2015-01-16T16:03:52Z" finished-at="2015-01-16T16:03:52Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Cookiesclose -->
+        <test-method status="PASS" signature="Cookiesclose()[pri:0, instance:testngFiles.Annotations@8554f0c]" name="Cookiesclose" is-config="true" duration-ms="1" started-at="2015-01-16T16:03:52Z" finished-at="2015-01-16T16:03:52Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Cookiesclose -->
+      </class> <!-- packTwo.Annotations -->
+      <class name="testngFiles.Annot2">
+        <test-method status="PASS" signature="software()[pri:0, instance:testngFiles.Annot2@7d0144a]" name="software" duration-ms="9" started-at="2015-01-16T16:03:51Z" finished-at="2015-01-16T16:03:51Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- software -->
+      </class> <!-- testngFiles.Annot2 -->
+      <class name="packTwo.DependenyAnnot">
+        <test-method status="PASS" signature="OpeningBrowser()[pri:0, instance:packTwo.DependenyAnnot@6de40a47]" name="OpeningBrowser" duration-ms="2" started-at="2015-01-16T16:03:52Z" finished-at="2015-01-16T16:03:52Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- OpeningBrowser -->
+        <test-method status="PASS" signature="Timerelated()[pri:0, instance:packTwo.DependenyAnnot@6de40a47]" name="Timerelated" duration-ms="3" started-at="2015-01-16T16:03:52Z" finished-at="2015-01-16T16:03:52Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Timerelated -->
+        <test-method status="PASS" signature="FlightBooking()[pri:0, instance:packTwo.DependenyAnnot@6de40a47]" name="FlightBooking" duration-ms="3" started-at="2015-01-16T16:03:52Z" depends-on-methods="packTwo.DependenyAnnot.OpeningBrowser" finished-at="2015-01-16T16:03:52Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- FlightBooking -->
+      </class> <!-- packTwo.DependenyAnnot -->
+      <class name="testngFiles.Annotations">
+        <test-method status="PASS" signature="UseridGeneration()[pri:0, instance:testngFiles.Annotations@8554f0c]" name="UseridGeneration" is-config="true" duration-ms="1" started-at="2015-01-16T16:03:52Z" finished-at="2015-01-16T16:03:52Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- UseridGeneration -->
+        <test-method status="PASS" signature="OpeningBrowser()[pri:0, instance:testngFiles.Annotations@8554f0c]" name="OpeningBrowser" duration-ms="1" started-at="2015-01-16T16:03:52Z" finished-at="2015-01-16T16:03:52Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- OpeningBrowser -->
+        <test-method status="PASS" signature="Reportadding()[pri:0, instance:testngFiles.Annotations@8554f0c]" name="Reportadding" is-config="true" duration-ms="1" started-at="2015-01-16T16:03:52Z" finished-at="2015-01-16T16:03:52Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Reportadding -->
+        <test-method status="FAIL" signature="FlightBooking(java.lang.String)[pri:0, instance:testngFiles.Annotations@8554f0c]" name="FlightBooking" duration-ms="0" started-at="2015-01-16T16:03:52Z" finished-at="2015-01-16T16:03:52Z">
+          <exception class="org.testng.TestNGException">
+            <message>
+              <![CDATA[
+Parameter 'adminUserid' is required by @Test on method FlightBooking but has not been marked @Optional or defined
+in C:\Apps\DebitCards\testng.xml]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.testng.TestNGException: 
+Parameter 'adminUserid' is required by @Test on method FlightBooking but has not been marked @Optional or defined
+in C:\Apps\DebitCards\testng.xml
+	at org.testng.internal.Parameters.createParameters(Parameters.java:155)
+	at org.testng.internal.Parameters.createParameters(Parameters.java:358)
+	at org.testng.internal.Parameters.handleParameters(Parameters.java:450)
+	at org.testng.internal.Invoker.handleParameters(Invoker.java:1383)
+	at org.testng.internal.Invoker.createParameters(Invoker.java:1075)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1180)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:127)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:111)
+	at org.testng.TestRunner.privateRun(TestRunner.java:767)
+	at org.testng.TestRunner.run(TestRunner.java:617)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:334)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:329)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:291)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:240)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1224)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1149)
+	at org.testng.TestNG.run(TestNG.java:1057)
+	at org.testng.remote.RemoteTestNG.run(RemoteTestNG.java:111)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:204)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:175)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.testng.TestNGException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- FlightBooking -->
+      </class> <!-- testngFiles.Annotations -->
+    </test> <!-- Smoke Testcases -->
+  </suite> <!-- Automatio Test -->
+</testng-results>

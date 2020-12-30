@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="3" passed="3">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Automation Test" duration-ms="77" started-at="2015-01-16T19:17:19Z" finished-at="2015-01-16T19:17:19Z">
+    <groups>
+    </groups>
+    <test name="Smoke Testcases" duration-ms="77" started-at="2015-01-16T19:17:19Z" finished-at="2015-01-16T19:17:19Z">
+      <class name="testngFiles.Annot2">
+        <test-method status="PASS" signature="installsoftware()" name="installsoftware" is-config="true" duration-ms="40" started-at="2015-01-16T19:17:19Z" finished-at="2015-01-16T19:17:19Z">
+        </test-method>
+        <test-method status="PASS" signature="software()" name="software" duration-ms="12" started-at="2015-01-16T19:17:19Z" finished-at="2015-01-16T19:17:19Z">
+        </test-method>
+        <test-method status="PASS" signature="deinstallsoftware()" name="deinstallsoftware" is-config="true" duration-ms="0" started-at="2015-01-16T19:17:19Z" finished-at="2015-01-16T19:17:19Z">
+        </test-method>
+      </class>
+      <class name="testngFiles.Annotations">
+        <test-method status="PASS" signature="Cookies()" name="Cookies" is-config="true" duration-ms="1" started-at="2015-01-16T19:17:19Z" finished-at="2015-01-16T19:17:19Z">
+        </test-method>
+        <test-method status="PASS" signature="UseridGeneration()" name="UseridGeneration" is-config="true" duration-ms="1" started-at="2015-01-16T19:17:19Z" finished-at="2015-01-16T19:17:19Z">
+        </test-method>
+        <test-method status="PASS" signature="FlightBooking(java.lang.String)" name="FlightBooking" duration-ms="3" started-at="2015-01-16T19:17:19Z" finished-at="2015-01-16T19:17:19Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[abcd]]>
+              </value>
+            </param>
+          </params>
+        </test-method>
+        <test-method status="PASS" signature="Reportadding()" name="Reportadding" is-config="true" duration-ms="1" started-at="2015-01-16T19:17:19Z" finished-at="2015-01-16T19:17:19Z">
+        </test-method>
+        <test-method status="PASS" signature="UseridGeneration()" name="UseridGeneration" is-config="true" duration-ms="1" started-at="2015-01-16T19:17:19Z" finished-at="2015-01-16T19:17:19Z">
+        </test-method>
+        <test-method status="PASS" signature="OpeningBrowser()" name="OpeningBrowser" duration-ms="3" started-at="2015-01-16T19:17:19Z" finished-at="2015-01-16T19:17:19Z">
+        </test-method>
+        <test-method status="PASS" signature="Reportadding()" name="Reportadding" is-config="true" duration-ms="1" started-at="2015-01-16T19:17:19Z" finished-at="2015-01-16T19:17:19Z">
+        </test-method>
+        <test-method status="PASS" signature="Cookiesclose()" name="Cookiesclose" is-config="true" duration-ms="4" started-at="2015-01-16T19:17:19Z" finished-at="2015-01-16T19:17:19Z">
+        </test-method>
+      </class>
+    </test>
+  </suite>
+</testng-results>

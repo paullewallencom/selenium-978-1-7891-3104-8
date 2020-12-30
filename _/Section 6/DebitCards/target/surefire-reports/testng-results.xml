@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="1" passed="1">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Automatio Test" duration-ms="45041" started-at="2015-01-17T12:30:41Z" finished-at="2015-01-17T12:31:26Z">
+    <groups>
+    </groups>
+    <test name="Smoke Testcases" duration-ms="45041" started-at="2015-01-17T12:30:41Z" finished-at="2015-01-17T12:31:26Z">
+      <class name="pageobjecttestcases.SampleTest">
+        <test-method status="PASS" signature="LoginApp()" name="LoginApp" duration-ms="44999" started-at="2015-01-17T12:30:41Z" finished-at="2015-01-17T12:31:26Z">
+        </test-method>
+      </class>
+    </test>
+  </suite>
+</testng-results>

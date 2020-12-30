@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite hostname="Venkatesh-pc" name="packTwo.Annot2" tests="13" failures="0" timestamp="16 Jan 2015 13:45:19 GMT" time="0.098" errors="0">
+  <testcase name="OpeningBrowser" time="0.001" classname="packTwo.DependenyAnnot"/>
+  <testcase name="FlightBooking" time="0.002" classname="packTwo.DependenyAnnot"/>
+  <testcase name="OpeningBrowser" time="0.001" classname="testngFiles.DependenyAnnot"/>
+  <testcase name="FlightBooking" time="0.003" classname="testngFiles.DependenyAnnot"/>
+  <testcase name="software" time="0.003" classname="packTwo.Annot2"/>
+  <testcase name="FlightBooking" time="0.0" classname="packTwo.Annotations"/>
+  <testcase name="FlightCancel" time="0.001" classname="packTwo.Annotations"/>
+  <testcase name="OpeningBrowser" time="0.001" classname="packTwo.Annotations"/>
+  <testcase name="Timerelated" time="0.015" classname="packTwo.DependenyAnnot"/>
+  <testcase name="software" time="0.0" classname="testngFiles.Annot2"/>
+  <testcase name="FlightBooking" time="0.003" classname="testngFiles.Annotations">
+    <skipped/>
+  </testcase>
+  <testcase name="OpeningBrowser" time="0.001" classname="testngFiles.Annotations"/>
+  <testcase name="Timerelated" time="0.007" classname="testngFiles.DependenyAnnot"/>
+</testsuite>
